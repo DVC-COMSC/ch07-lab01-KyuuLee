@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python main.py",
       "input": "5\r\n10\r\n15\r\n20\r\n25",
-      "output": "[\\w, \\d, [:space:]]*45[\\w, \\d, [:space:]]*",
+      "output": "[0-9,a-z, \" \"]*45[0-9,a-z, \" \"]*",
       "comparison": "regex",
       "timeout": 10,
       "points": 1
